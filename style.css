@@ -80,15 +80,25 @@ body{
 	color: white;
 }
 .navigasi {
-	margin-top: 15px;
+	height:30px;
+	margin-top: 20px;
+	border-bottom: 1px solid white;
 }
 .navigasi a {
+	display: inline block;
 	text-decoration: none;
 	color: white;
-	font-size: 15px;
-	margin-right: 20px;
-	margin-left: 10px;
-	padding: 3px;
+	font-size: 17px;
+	margin: 20px;
+
+}
+
+.navkiri{
+	float: left;
+}
+
+.navkanan{
+	float: right;
 }
 
 .main {
@@ -98,7 +108,9 @@ body{
 	border: 1px solid white;
 	padding: 10px;
 }
-
+.main p{
+	text-align: justify;
+}
 h2 {
 	text-align: center;
 	font-size: 25px;
@@ -106,6 +118,16 @@ h2 {
 	margin: 20px;
 }
 
+button {
+	margin-left: 100px;
+}
+.dua button {
+	margin-top: 15px;
+}
+
+.tiga button {
+	margin-top: 18px;
+}
 .satu {
 	width: 280px;
 	height: 400px;
@@ -148,7 +170,6 @@ h2 {
 .foto {
 	width: 200px;
 	height: 250px;
-	border: 1px solid white;
 	float: left;
 	margin-top: 10px;
 }
@@ -156,11 +177,15 @@ h2 {
 .detail {
 	width: 665px;
 	height: 250px;
-	border: 1px solid white;
 	float: left;
 	margin: 10px;
 	margin-right: 10px;
 	box-sizing: border-box;
+	border-bottom: 1px solid white;
+}
+
+.kelebihan {
+	margin-top: 10px;
 }
 
 .satu img{
@@ -206,14 +231,26 @@ h2 {
 	width: 200px;
 	height: 250px;
 	box-sizing: border-box;
+	border: 1px solid white;
 
 }
 
-.biodata p {
-	padding: 10px;
+.biodata p{
+	padding-left: 10px;
 }
 
-.kelebihan p{
+.biodata h4{
+	text-align: right;
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: white;
+}
+
+.kelebihan{
+	margin-top:3px;
+}
+
+.kelebihan ul li{
 	text-align: right;
 }
 
